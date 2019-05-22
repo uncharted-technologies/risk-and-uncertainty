@@ -4,4 +4,4 @@ This folder contains the code used to produce figure 3 in our paper. Running "tr
 
 The "make_uncertainty_plot" notebook loads and plots the uncertainties in "uncertainties", producing figure 3.
 
-Part of the code used for these experiments was developed from the OpenAI baselines and the Stable Baselines.
+Part of the code used for these experiments was developed from the OpenAI baselines (https://github.com/openai/baselines) and the Stable Baselines (https://github.com/hill-a/stable-baselines).
