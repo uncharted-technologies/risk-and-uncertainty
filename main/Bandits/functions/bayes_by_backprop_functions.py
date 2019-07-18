@@ -108,7 +108,7 @@ class BayesianNetwork(nn.Module):
     def log_variational_posterior(self):
         return self.l1.log_variational_posterior \
                + self.l2.log_variational_posterior \
-               + self.l2.log_variational_posterior
+               + self.l3.log_variational_posterior
     
     def sample_elbo(self, X, action, reward, n_samples, batch_size, samples):
         action = action.unsqueeze(1)
