@@ -3,13 +3,10 @@ Code used to train and test agents on the Bandit problem, with results shown in 
 
 # Structure
 
-**agent**: the learning agents: Bayes by Backprop, QR-DQN with an epsilon-greedy policy, and QR-DQN with Thompson sampling
-
-**experiments**: containing scripts to train and test agents.
-
-**results**: by default, the output of scripts from the experiments folder is saved here
-
-**plotting**: loads data from the results folder and plots it, yielding the figures in our paper
+- **agent**: the learning agents: Bayes by Backprop, QR-DQN with an epsilon-greedy policy, and QR-DQN with Thompson sampling
+- **experiments**: containing scripts to train and test agents.
+- **results**: by default, the output of scripts from the experiments folder is saved here
+- **plotting**: loads data from the results folder and plots it, yielding the figures in our paper
 
 # Running experiments: example
 We provide example scripts for training agents.
