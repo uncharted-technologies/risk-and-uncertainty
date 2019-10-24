@@ -1,4 +1,4 @@
-# Old version of our code for the paper
+# Old version of our code
 
 Old version of this repository. Our code for the Atari and bandit experiments has since been updated.
 
